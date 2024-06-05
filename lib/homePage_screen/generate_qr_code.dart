@@ -36,7 +36,7 @@ class _GenerateQRCodeState extends State<GenerateQRCode> {
               controller: urlController,
               decoration: const InputDecoration(
                 border: OutlineInputBorder(),
-                labelText: 'Enter your URL',
+                hintText: 'Enter your URL',
                 filled: true,
                 fillColor: Colors.white,
                 contentPadding:

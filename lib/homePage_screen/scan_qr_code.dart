@@ -44,9 +44,6 @@ class _ScanQRCodeState extends State<ScanQRCode> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            // SizedBox(
-            //   height: 30,
-            // ),
             Text(
               qrResult,
               style: const TextStyle(color: Colors.black),
